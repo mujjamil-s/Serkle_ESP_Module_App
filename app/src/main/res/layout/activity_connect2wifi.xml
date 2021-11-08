@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Connect2wifi">
+
+    <ListView
+        android:id="@+id/wifiList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/trnon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="clip_horizontal|center"
+        android:text="Turn On" />
+    <Button
+        android:id="@+id/trnoff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="clip_horizontal|center"
+        android:text="Turn off" />
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="clip_horizontal|center"
+        android:text="Scan Wifi" />
+
+    <Button
+        android:id="@+id/CntBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="clip_horizontal|center"
+        android:text="Connect Led" />
+
+    <Button
+        android:id="@+id/color_chooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Chooser" />
+    <Button
+        android:id="@+id/open_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Home" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ssid_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SSID" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+<Button
+    android:id="@+id/send_ssid_pass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SEND PASSWORD"
+    />
+</LinearLayout>

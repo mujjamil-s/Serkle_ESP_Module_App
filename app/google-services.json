@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "982342650262",
+    "firebase_url": "https://serkle.firebaseio.com",
+    "project_id": "serkle",
+    "storage_bucket": "serkle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982342650262:android:3c65f35093ad0adf88f5b7",
+        "android_client_info": {
+          "package_name": "com.almaharapvtltd.serkle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982342650262-43jqtemkdaicteqjmqrctaslbgtmbl03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.almaharapvtltd.serkle",
+            "certificate_hash": "534d2c3ae597e2c57ca1ea2860cb96b9e44424dd"
+          }
+        },
+        {
+          "client_id": "982342650262-8ksnelov1rk65b2ulc7svr0dr8t581ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi9VOR6uR7tfGAe_TlL32zTPTwSztzt_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982342650262-8ksnelov1rk65b2ulc7svr0dr8t581ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
